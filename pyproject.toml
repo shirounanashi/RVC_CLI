@@ -22,17 +22,17 @@ resampy = "0.4.2"
 scipy = "1.11.1"
 sounddevice = "0.4.6"
 soundfile = "0.12.1"
-torchaudio = "2.1.1"
 noisereduce = "*"
+torch = { url = "https://download.pytorch.org/whl/cu121"}
+torchaudio = { url = "https://download.pytorch.org/whl/cu121"}
+torchvision = { url = "https://download.pytorch.org/whl/cu121"}
 fairseq = {git = "https://github.com/IAHispano/fairseq", platform = "linux"}
 numba = "*"
 onnxruntime = "*"
 onnxruntime_gpu = "1.15.1"
-torch = "2.1.1"
 torchcrepe = "0.0.21"
 torchgen = ">=0.0.1"
 torch_directml = "*"
-torchvision = "0.16.1"
 einops = "*"
 local-attention = "*"
 matplotlib = "3.7.2"
