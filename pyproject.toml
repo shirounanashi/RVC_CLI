@@ -24,8 +24,8 @@ sounddevice = "0.4.6"
 soundfile = "0.12.1"
 torchaudio = "2.1.1"
 noisereduce = "*"
-fairseq = {version = "0.12.2", platform = "win32"}
-numba = {version = "0.56.4", platform = "win32"}
+fairseq = {git = "https://github.com/IAHispano/fairseq", platform = "linux"}
+numba = "*"
 onnxruntime = "*"
 onnxruntime_gpu = "1.15.1"
 torch = "2.1.1"
@@ -44,13 +44,7 @@ pydantic = "*"
 fastapi = "*"
 uvicorn = "*"
 
-[tool.poetry.dependencies.fairseq]
-git = "https://github.com/IAHispano/fairseq"
-platform = "linux"
-
-[tool.poetry.dependencies.numba]
-version = "*"
-platform = "linux"
+[tool.poetry.dev-dependencies]
 
 [build-system]
 requires = ["poetry-core"]
